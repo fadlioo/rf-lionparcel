@@ -51,7 +51,7 @@ output.xml - A machine-readable XML output file
 You can open the log.html and report.html files in a web browser to view the test results.
 
 ### Project Structure
-
+```bash
 rf-lionparcel/
 ├── resources/
 │   ├── mobile/
@@ -62,6 +62,7 @@ rf-lionparcel/
 │       └── complete_page.robot  # Web page object
 └── tests/
     └── test.py                  # Test utilities
+```
 
 ### Configuration Details
 The mobile testing is configured for:
